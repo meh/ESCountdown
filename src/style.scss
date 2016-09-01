@@ -36,6 +36,10 @@ body {
 }
 
 .countdown-container {
+  .countdown-value {
+    color: #0f0;
+  }
+
   &.ending {
     .countdown-value {
       color: #f00;
@@ -46,9 +50,15 @@ body {
     }
   }
 
-  &.early .countdown-title::before {
-    content: "Next: ";
-    font-style: normal;
+  &.early {
+    .countdown-value {
+      color: #fff;
+    }
+
+    .countdown-title::before {
+      content: "Next: ";
+      font-style: normal;
+    }
   }
 }
 

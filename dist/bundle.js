@@ -2326,7 +2326,7 @@ module.exports = Countdown;
 },{"./$":5,"./time":8,"underscore":4}],7:[function(require,module,exports){
 'use strict';
 
-var scheduleUrl = 'https://www.endsummercamp.org/API/ls_sched_talk.php';
+var scheduleUrl = 'http://localhost:9090/schedule.json';//'https://www.endsummercamp.org/API/ls_sched_talk.php';
 
 document.addEventListener('DOMContentLoaded', function () {
   var _ = require('underscore');

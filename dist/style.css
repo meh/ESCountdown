@@ -27,12 +27,14 @@ body {
   font-size: 0.25em;
   font-style: italic; }
 
+.countdown-container .countdown-value {
+  color: #0f0; }
 .countdown-container.ending .countdown-value {
   color: #f00; }
-
 .countdown-container.ending.countdown-title {
   color: #888; }
-
+.countdown-container.early .countdown-value {
+  color: #fff; }
 .countdown-container.early .countdown-title::before {
   content: "Next: ";
   font-style: normal; }
@@ -40,3 +42,4 @@ body {
 .countdown-value, .countdown-title {
   transition: color 0.3s; }
 
+/*# sourceMappingURL=style.css.map */
