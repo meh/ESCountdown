@@ -1,4 +1,4 @@
-let scheduleUrl = 'https://www.endsummercamp.org/API/ls_sched_talk.php';
+let scheduleUrl = 'https://www.endsummercamp.org/API/talk.json';
 
 document.addEventListener('DOMContentLoaded', function () {
   const _ = require('underscore');
